@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Person Data</title>
 
     <link rel="stylesheet" href="style.css" />
 
@@ -49,7 +49,7 @@
       </a>
     </div>
 
-    <div class="container-fluid">
+    <div >
       <section class="services" id="services">
         <div class="services-container">
           <div class="services-box">
@@ -115,100 +115,108 @@
           </div>
 
           <div class="services-box">
-            <h4>Retirement Income</h4>
-            <h3>Starting Year 2056</h3>
 
-            <div class="Income">
-              <div>
-                <h4>$300,000</h4>
-                <span>My Goal</span>
-              </div>
 
-              <div>
-                <h4>59%</h4>
-                <span> Goal Achived </span>
-              </div>
+            <div class="graph-data">
 
-              <div>
-                <h4>$300</h4>
-                <span> Est. Monthly Income </span>
+              <h4>Retirement Income</h4>
+              <h3>Starting Year 2056</h3>
+  
+              <div class="Income">
+                <div>
+                  <h4>$300,000</h4>
+                  <span>My Goal</span>
+                </div>
+  
+                <div>
+                  <h4>59%</h4>
+                  <span> Goal Achived </span>
+                </div>
+  
+                <div>
+                  <h4>$300</h4>
+                  <span> Est. Monthly Income </span>
+                </div>
               </div>
+  
+              <div>
+                <h3>Contribution Overtime</h3>
+  
+                <div style="display: flexbox">
+                  <div>
+                    <p>Employer K- 73,500</p>
+                  </div>
+                  <div>
+                    <p>Employer K- 52,500</p>
+                  </div>
+                  <div>
+                    <p>Employer K- 244,313</p>
+                  </div>
+                </div>
+              </div>
+  
+              <div id="container"></div>
+  
+              <h3>How do I compare to my peers ?</h3>
+              <p>These numbers represent current goal achivement</p>
+  
+              <div class="content-data">
+                <div>
+                  <strong>Age:</strong>
+                  <select>
+                    <option value="0">Under 30</option>
+                    <option value="1">Under 40</option>
+                    <option value="2">Under 50</option>
+                    <option value="3">under 60</option>
+                  </select>
+                  <hr style="width: 100%" />
+  
+                  <strong>Salary:</strong>
+                  <select>
+                    <option value="0">K 20 - K 30</option>
+                    <option value="1">K 40 - K 50</option>
+                    <option value="2">K 60 - K 70</option>
+                    <option value="3">K 70 - K 80</option>
+                    <option value="3">K 80 - K 90</option>
+                    <option value="3">K 90 - K 100</option>
+                    <option value="3">K 100 - K 200</option>
+                  </select>
+                  <hr style="width: 100%" />
+                  <strong>Gender:</strong>
+                  <select>
+                    <option value="0">Male</option>
+                    <option value="1">Female</option>
+                    <option value="2">Gay</option>
+                  </select>
+                </div>
+  
+                <div class="circular-bar">
+                  <div class="average">
+                    <div class="circular-progress">
+                      <span class="progress-value">0%</span>
+                    </div>
+                    <span class="text">Average</span>
+                  </div>
+  
+                  <div class="top">
+                    <div class="top-progress">
+                      <span class="top-progress-value">0%</span>
+                    </div>
+                    <span class="text">Top</span>
+                  </div>
+  
+                  <div class="me">
+                    <div class="me-progress">
+                      <span class="me-progress-value">0%</span>
+                    </div>
+                    <span class="text">Me</span>
+                  </div>
+                </div>
+              </div>
+              
             </div>
 
-            <div>
-              <h3>Contribution Overtime</h3>
-
-              <div style="display: flex">
-                <div>
-                  <p>Employer K- 73,500</p>
-                </div>
-                <div>
-                  <p>Employer K- 52,500</p>
-                </div>
-                <div>
-                  <p>Employer K- 244,313</p>
-                </div>
-              </div>
-            </div>
-
-            <div id="container"></div>
-
-            <h3>How do I compare to my peers ?</h3>
-            <p>These numbers represent current goal achivement</p>
-
-            <div style="display: flex">
-              <div>
-                <strong>Age:</strong>
-                <select>
-                  <option value="0">Under 30</option>
-                  <option value="1">Under 40</option>
-                  <option value="2">Under 50</option>
-                  <option value="3">under 60</option>
-                </select>
-                <hr style="width: 100%" />
-
-                <strong>Salary:</strong>
-                <select>
-                  <option value="0">K 20 - K 30</option>
-                  <option value="1">K 40 - K 50</option>
-                  <option value="2">K 60 - K 70</option>
-                  <option value="3">K 70 - K 80</option>
-                  <option value="3">K 80 - K 90</option>
-                  <option value="3">K 90 - K 100</option>
-                  <option value="3">K 100 - K 200</option>
-                </select>
-                <hr style="width: 100%" />
-                <strong>Gender:</strong>
-                <select>
-                  <option value="0">Male</option>
-                  <option value="1">Female</option>
-                  <option value="2">Gay</option>
-                </select>
-              </div>
-
-              <div class="circular-bar">
-                <div class="average">
-                  <div class="circular-progress">
-                    <span class="progress-value">0%</span>
-                  </div>
-                  <span class="text">Average</span>
-                </div>
-
-                <div class="top">
-                  <div class="top-progress">
-                    <span class="top-progress-value">0%</span>
-                  </div>
-                  <span class="text">Top</span>
-                </div>
-
-                <div class="me">
-                  <div class="me-progress">
-                    <span class="me-progress-value">0%</span>
-                  </div>
-                  <span class="text">Me</span>
-                </div>
-              </div>
-            </div>
+          
           </div>
 
           <div class="services-box">

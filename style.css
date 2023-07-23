@@ -48,6 +48,15 @@
     display: block;
     text-align: left;
   }
+
+  .graph-data{
+    text-align: center;
+    justify-content: center;
+  }
+
+  .content-data{
+    display: inline-block;
+   }
 }
 
 .services h2{
@@ -75,6 +84,9 @@
     transform:scale(1.02) ;
 }
 
+.content-data{
+  display: inline-flex;
+ }
 
 @media (max-width:2200px){
  
@@ -84,6 +96,7 @@
         display: flex; 
         justify-content: space-between;
     }
+    
     }
     
     @media (max-width:991px){
@@ -118,9 +131,15 @@
         display: block; 
      }
     
+
+     .content-data{
+      display: inline-block;
+     }
+
+    
     }
     #container {
-        width: 100%;
+        width: 90%;
         height: 150px;
         margin: 0;
         padding: 0;
